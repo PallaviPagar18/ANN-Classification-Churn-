@@ -1,0 +1,1001 @@
+CustomerID,Gender,Age,Tenure_Months,MonthlyCharges,TotalCharges,ContractType,PaymentMethod,InternetService,TechSupport,OnlineBackup,Churn
+CUST0001,Male,34,11,768.54,8971.54,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0002,Female,26,56,1638.12,37887.15,Two Year,Net Banking,Fiber Optic,No,Yes,0
+CUST0003,Male,50,67,1957.22,112268.0,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0004,Male,37,29,931.05,102156.29,One Year,Cash,DSL,No,Yes,0
+CUST0005,Male,30,9,1029.11,117837.73,Month-to-Month,UPI,DSL,No,No,1
+CUST0006,Female,45,67,1736.14,75545.21,Month-to-Month,Cash,None,No,No,1
+CUST0007,Male,65,25,755.84,30077.45,Month-to-Month,UPI,DSL,No,Yes,1
+CUST0008,Male,46,42,565.85,19956.4,Month-to-Month,Cash,Fiber Optic,No,No,0
+CUST0009,Male,30,9,1750.25,22836.28,One Year,UPI,None,No,Yes,1
+CUST0010,Female,63,40,379.05,2865.58,Month-to-Month,UPI,DSL,No,No,0
+CUST0011,Male,52,25,1353.49,47186.51,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0012,Male,23,5,1255.39,23375.61,One Year,Cash,Fiber Optic,No,Yes,1
+CUST0013,Male,35,11,888.06,49692.83,Month-to-Month,Cash,None,No,No,1
+CUST0014,Male,68,59,835.82,112231.83,Two Year,Cash,None,No,No,0
+CUST0015,Female,22,38,1612.16,51949.56,Month-to-Month,Credit Card,Fiber Optic,No,No,1
+CUST0016,Male,64,5,446.92,105419.15,Month-to-Month,UPI,Fiber Optic,Yes,Yes,1
+CUST0017,Female,42,48,702.53,72857.82,Month-to-Month,Cash,DSL,No,No,1
+CUST0018,Female,19,18,1545.16,30032.22,Month-to-Month,Credit Card,None,No,Yes,1
+CUST0019,Female,27,70,1232.14,43024.64,Month-to-Month,Debit Card,None,Yes,Yes,1
+CUST0020,Male,47,37,517.58,10528.38,One Year,Cash,DSL,No,Yes,0
+CUST0021,Female,67,60,1799.63,40348.78,Two Year,Cash,DSL,Yes,Yes,0
+CUST0022,Male,62,48,968.86,81466.14,One Year,Credit Card,DSL,Yes,Yes,0
+CUST0023,Female,22,28,1707.38,9117.28,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0024,Female,50,69,1639.11,25045.47,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0025,Female,18,40,1361.52,46082.2,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0026,Female,35,45,1140.62,117854.92,Month-to-Month,UPI,DSL,No,Yes,0
+CUST0027,Female,49,62,1965.24,94290.99,One Year,Debit Card,DSL,No,No,0
+CUST0028,Female,64,58,546.44,88151.67,Month-to-Month,Net Banking,None,No,No,0
+CUST0029,Female,66,67,1532.76,14384.82,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0030,Female,28,56,625.02,93829.01,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0031,Male,38,40,875.05,94339.62,Two Year,Credit Card,DSL,No,Yes,1
+CUST0032,Male,43,40,824.79,72331.77,Month-to-Month,Debit Card,None,Yes,Yes,0
+CUST0033,Female,42,33,1909.96,118848.23,Month-to-Month,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0034,Female,39,6,1944.51,39367.84,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0035,Female,44,19,611.13,112982.06,Month-to-Month,Credit Card,DSL,No,Yes,0
+CUST0036,Male,66,40,337.46,109810.37,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0037,Female,30,59,1524.01,1871.94,Month-to-Month,UPI,DSL,Yes,Yes,0
+CUST0038,Male,50,59,1010.58,54288.92,One Year,Credit Card,Fiber Optic,No,No,0
+CUST0039,Male,51,48,451.03,117263.96,Month-to-Month,Net Banking,None,No,No,0
+CUST0040,Male,58,41,1462.38,12823.0,One Year,Net Banking,Fiber Optic,No,No,1
+CUST0041,Male,52,13,1226.68,65960.27,Two Year,Debit Card,Fiber Optic,No,Yes,1
+CUST0042,Male,18,45,1966.88,117485.42,One Year,Cash,Fiber Optic,No,Yes,0
+CUST0043,Female,38,53,686.6,66881.7,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0044,Female,65,42,986.76,23182.93,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0045,Female,23,63,1222.33,70070.9,One Year,Cash,DSL,Yes,No,0
+CUST0046,Female,45,27,1645.89,24930.65,One Year,Credit Card,DSL,No,No,1
+CUST0047,Female,34,38,1233.03,62604.66,Month-to-Month,Net Banking,Fiber Optic,Yes,No,0
+CUST0048,Male,22,60,1341.93,9348.05,One Year,Debit Card,DSL,Yes,Yes,0
+CUST0049,Female,48,7,684.45,72855.18,Month-to-Month,Cash,DSL,No,No,1
+CUST0050,Female,22,5,1739.76,62256.4,Month-to-Month,UPI,Fiber Optic,No,Yes,1
+CUST0051,Male,55,45,1028.67,88949.28,Month-to-Month,Debit Card,None,No,Yes,1
+CUST0052,Female,20,58,539.63,75868.71,Month-to-Month,Net Banking,Fiber Optic,Yes,No,0
+CUST0053,Male,40,31,1429.12,66177.95,Month-to-Month,Credit Card,Fiber Optic,No,Yes,0
+CUST0054,Female,54,23,667.35,82928.57,One Year,Debit Card,Fiber Optic,No,No,0
+CUST0055,Male,54,42,465.86,17701.06,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0056,Female,27,10,1765.38,71645.48,Month-to-Month,Cash,Fiber Optic,Yes,No,1
+CUST0057,Female,27,32,1082.28,21067.22,Month-to-Month,UPI,None,No,No,1
+CUST0058,Male,36,53,1573.78,111099.9,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0059,Male,34,30,794.0,8665.93,Month-to-Month,Credit Card,Fiber Optic,Yes,Yes,0
+CUST0060,Male,38,39,1637.85,51929.78,One Year,Net Banking,Fiber Optic,No,No,1
+CUST0061,Male,31,31,490.29,83647.8,One Year,Credit Card,Fiber Optic,No,No,0
+CUST0062,Male,26,2,905.15,55233.65,One Year,Debit Card,DSL,Yes,No,0
+CUST0063,Male,63,12,1962.71,11505.38,One Year,Debit Card,DSL,Yes,Yes,0
+CUST0064,Male,18,39,1649.78,66628.79,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0065,Male,68,66,1145.34,77175.01,Month-to-Month,Net Banking,None,No,No,1
+CUST0066,Female,62,13,877.62,84603.18,Month-to-Month,Cash,DSL,Yes,No,0
+CUST0067,Female,30,46,1782.63,45104.55,Month-to-Month,Net Banking,DSL,No,No,0
+CUST0068,Male,21,27,1226.24,67857.37,Two Year,Debit Card,Fiber Optic,No,No,0
+CUST0069,Female,18,17,1589.32,54357.03,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0070,Female,66,60,1581.98,80810.7,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,1
+CUST0071,Female,57,64,330.51,70235.06,Two Year,Net Banking,DSL,Yes,Yes,0
+CUST0072,Female,49,35,514.63,63327.87,Two Year,Cash,None,No,No,0
+CUST0073,Male,51,70,1421.37,30318.16,One Year,Debit Card,None,No,No,1
+CUST0074,Female,45,30,574.75,741.21,Month-to-Month,Net Banking,None,No,Yes,0
+CUST0075,Male,48,71,734.34,21302.76,Month-to-Month,Cash,Fiber Optic,Yes,No,0
+CUST0076,Female,25,63,1909.28,14489.39,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0077,Female,56,28,1252.31,54165.63,Month-to-Month,Cash,DSL,No,No,1
+CUST0078,Female,43,60,1576.24,73664.85,Month-to-Month,Cash,DSL,Yes,Yes,1
+CUST0079,Male,51,37,1248.57,25963.66,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0080,Female,20,22,1239.27,112717.32,Two Year,Debit Card,Fiber Optic,No,Yes,0
+CUST0081,Male,67,68,460.06,1298.51,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0082,Female,29,20,884.23,92789.97,One Year,Credit Card,Fiber Optic,No,Yes,0
+CUST0083,Male,18,68,780.13,75211.97,One Year,Credit Card,DSL,No,Yes,0
+CUST0084,Female,61,64,964.24,45139.8,Month-to-Month,Debit Card,Fiber Optic,Yes,No,0
+CUST0085,Male,22,17,1657.19,6533.43,One Year,Cash,Fiber Optic,No,Yes,1
+CUST0086,Male,47,12,932.29,75484.65,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0087,Female,47,22,1067.88,46580.81,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0088,Male,34,17,975.55,112383.92,One Year,Debit Card,DSL,Yes,Yes,0
+CUST0089,Female,65,10,458.79,65267.81,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0090,Female,64,65,1049.82,112788.36,Two Year,Credit Card,Fiber Optic,No,Yes,0
+CUST0091,Female,40,22,632.54,26847.8,Month-to-Month,UPI,DSL,No,No,0
+CUST0092,Female,32,50,617.43,87224.25,Month-to-Month,Debit Card,DSL,Yes,Yes,1
+CUST0093,Female,54,14,459.86,74261.26,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0094,Female,38,64,906.34,88859.28,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0095,Female,31,47,1587.72,26152.81,Month-to-Month,Cash,Fiber Optic,No,No,0
+CUST0096,Female,19,29,769.95,79966.84,One Year,Cash,DSL,No,No,1
+CUST0097,Female,28,36,830.99,60015.83,One Year,Credit Card,None,Yes,No,0
+CUST0098,Female,68,52,1392.55,89267.58,One Year,Credit Card,Fiber Optic,Yes,Yes,0
+CUST0099,Female,56,7,632.93,39581.83,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0100,Male,55,29,1824.83,106861.81,One Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0101,Male,51,11,1184.32,10574.01,One Year,Net Banking,DSL,No,Yes,0
+CUST0102,Female,55,33,1060.92,96959.12,One Year,Credit Card,Fiber Optic,Yes,No,0
+CUST0103,Female,67,6,1248.29,103427.7,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0104,Female,51,32,582.26,98161.65,One Year,Net Banking,None,No,No,0
+CUST0105,Female,35,51,1342.9,61770.8,One Year,Debit Card,Fiber Optic,No,Yes,0
+CUST0106,Female,47,58,917.27,52887.01,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0107,Female,32,26,1825.22,119553.34,One Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0108,Female,44,46,587.05,27886.05,Month-to-Month,Credit Card,None,No,Yes,0
+CUST0109,Female,68,29,1161.99,65851.68,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0110,Male,51,4,1316.79,80645.73,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0111,Female,69,13,356.75,84253.68,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0112,Male,55,39,918.28,24880.95,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0113,Female,50,15,1545.48,78652.29,One Year,Credit Card,Fiber Optic,No,No,0
+CUST0114,Female,41,29,1694.64,98295.16,Month-to-Month,UPI,DSL,No,No,1
+CUST0115,Male,32,29,832.38,6477.22,One Year,Debit Card,Fiber Optic,No,No,1
+CUST0116,Female,47,32,1657.61,109426.79,Two Year,Credit Card,DSL,No,No,1
+CUST0117,Male,59,2,1945.18,4025.73,Month-to-Month,Net Banking,None,No,No,1
+CUST0118,Female,68,47,1756.69,43038.54,Two Year,Cash,DSL,Yes,No,0
+CUST0119,Female,34,22,499.99,2389.68,Two Year,Credit Card,None,No,Yes,1
+CUST0120,Male,22,27,1557.54,9718.85,One Year,Cash,Fiber Optic,No,No,0
+CUST0121,Female,46,67,843.43,109384.61,One Year,Debit Card,Fiber Optic,Yes,No,0
+CUST0122,Male,21,56,1980.31,42905.87,Two Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0123,Female,27,21,1125.11,51260.2,One Year,Credit Card,DSL,Yes,Yes,0
+CUST0124,Male,34,47,508.14,26233.65,Month-to-Month,Cash,DSL,No,No,0
+CUST0125,Male,27,59,1532.82,71852.94,One Year,Debit Card,DSL,Yes,Yes,0
+CUST0126,Female,34,6,849.12,71578.98,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0127,Female,37,19,1995.03,44977.95,Month-to-Month,UPI,Fiber Optic,Yes,Yes,0
+CUST0128,Male,41,57,1965.63,40297.67,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0129,Female,22,69,1415.43,106253.23,One Year,Debit Card,DSL,No,Yes,0
+CUST0130,Female,51,3,520.7,46302.47,Month-to-Month,Cash,DSL,No,No,0
+CUST0131,Female,23,1,1467.66,59473.37,Two Year,Debit Card,Fiber Optic,No,No,0
+CUST0132,Male,19,58,458.15,34354.92,Month-to-Month,Cash,None,No,No,0
+CUST0133,Male,30,38,349.92,94518.96,Month-to-Month,Net Banking,Fiber Optic,Yes,No,0
+CUST0134,Male,60,15,1699.03,47995.05,Month-to-Month,Cash,Fiber Optic,Yes,Yes,1
+CUST0135,Male,60,34,656.58,61876.52,Month-to-Month,Debit Card,Fiber Optic,Yes,Yes,1
+CUST0136,Male,65,61,944.35,30776.18,One Year,Net Banking,DSL,Yes,Yes,0
+CUST0137,Male,28,35,1954.88,118525.32,Two Year,Credit Card,None,No,No,0
+CUST0138,Male,68,64,872.63,35333.74,One Year,UPI,Fiber Optic,No,Yes,0
+CUST0139,Male,64,25,804.03,92603.73,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0140,Male,40,24,1860.95,51585.73,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0141,Female,33,12,488.27,25142.98,One Year,Debit Card,DSL,No,No,0
+CUST0142,Male,48,18,1591.29,96066.39,Two Year,Net Banking,None,Yes,No,1
+CUST0143,Female,28,15,1979.71,40366.01,Month-to-Month,Credit Card,DSL,Yes,Yes,0
+CUST0144,Female,33,27,1832.2,103890.61,Month-to-Month,Cash,Fiber Optic,No,Yes,0
+CUST0145,Female,25,60,1407.84,109873.23,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0146,Male,21,46,833.9,103248.95,Two Year,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0147,Male,57,17,732.35,4683.45,One Year,Debit Card,Fiber Optic,No,No,0
+CUST0148,Male,21,53,1692.73,94591.11,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0149,Male,42,8,1795.7,49655.07,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0150,Female,20,27,1193.24,104909.89,Two Year,Cash,None,No,Yes,0
+CUST0151,Male,49,46,715.38,76735.53,Month-to-Month,UPI,DSL,No,No,1
+CUST0152,Male,20,50,492.0,100120.35,Month-to-Month,Debit Card,DSL,Yes,No,1
+CUST0153,Male,44,71,448.21,60182.1,Month-to-Month,UPI,DSL,No,No,1
+CUST0154,Male,46,3,1522.43,64435.55,Month-to-Month,Credit Card,None,Yes,Yes,0
+CUST0155,Male,49,64,1014.2,17754.32,Month-to-Month,Net Banking,DSL,No,Yes,0
+CUST0156,Female,67,44,1839.11,94186.49,One Year,Debit Card,Fiber Optic,No,Yes,0
+CUST0157,Male,68,53,1557.44,50617.06,Two Year,Cash,Fiber Optic,No,No,1
+CUST0158,Female,36,24,625.14,60259.57,One Year,Credit Card,DSL,No,No,0
+CUST0159,Male,38,60,1343.42,94319.18,Two Year,Debit Card,DSL,No,Yes,1
+CUST0160,Female,22,3,1040.36,72062.03,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0161,Male,35,20,1281.32,24531.3,One Year,Cash,Fiber Optic,No,Yes,0
+CUST0162,Male,45,46,1554.72,71032.8,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0163,Female,59,15,1670.53,49212.13,One Year,Cash,DSL,No,No,0
+CUST0164,Female,39,25,1734.35,56608.3,Two Year,UPI,None,Yes,Yes,0
+CUST0165,Female,38,71,731.76,3883.2,Month-to-Month,Cash,None,No,Yes,1
+CUST0166,Male,23,17,352.9,25598.51,Month-to-Month,UPI,DSL,No,Yes,0
+CUST0167,Female,18,9,1556.8,34084.05,Month-to-Month,Debit Card,DSL,Yes,No,0
+CUST0168,Male,22,38,480.78,85698.72,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0169,Male,58,48,835.36,1873.35,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0170,Female,29,60,306.49,49348.88,One Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0171,Female,43,63,1458.84,110921.21,Two Year,Net Banking,DSL,No,No,1
+CUST0172,Male,63,2,584.12,13869.73,Month-to-Month,Debit Card,DSL,No,Yes,0
+CUST0173,Male,51,11,1413.98,62212.71,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0174,Female,66,64,1985.96,94489.42,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0175,Female,31,21,423.54,113132.49,Two Year,Net Banking,DSL,No,No,0
+CUST0176,Female,43,18,431.03,89739.81,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0177,Male,62,64,878.65,86607.58,Month-to-Month,Cash,DSL,No,No,0
+CUST0178,Male,44,38,1772.86,99265.33,Month-to-Month,Cash,DSL,No,No,0
+CUST0179,Male,26,32,666.4,53821.05,Month-to-Month,Net Banking,Fiber Optic,No,Yes,0
+CUST0180,Male,43,11,912.64,96798.42,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0181,Male,64,45,416.46,1451.75,Two Year,Cash,Fiber Optic,No,No,0
+CUST0182,Male,39,33,1597.36,110985.05,Month-to-Month,Debit Card,None,No,Yes,1
+CUST0183,Female,64,41,994.12,53475.13,One Year,Debit Card,Fiber Optic,No,Yes,0
+CUST0184,Male,47,8,1590.72,66628.93,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0185,Male,60,11,1836.13,30958.43,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0186,Male,65,51,695.7,89232.43,One Year,Credit Card,None,Yes,Yes,0
+CUST0187,Female,34,41,1672.57,9657.98,Month-to-Month,Cash,None,No,Yes,1
+CUST0188,Male,43,17,400.46,104779.98,Month-to-Month,Cash,DSL,No,Yes,0
+CUST0189,Male,53,46,1828.04,99459.96,Month-to-Month,Cash,None,No,No,1
+CUST0190,Female,18,32,1406.31,26319.18,One Year,UPI,Fiber Optic,No,No,1
+CUST0191,Male,25,54,1786.19,97214.27,Month-to-Month,Debit Card,Fiber Optic,Yes,No,1
+CUST0192,Male,66,20,300.32,94469.75,Two Year,Net Banking,DSL,No,No,0
+CUST0193,Male,52,33,587.44,76049.88,Month-to-Month,Cash,Fiber Optic,Yes,Yes,1
+CUST0194,Male,69,40,962.59,45135.66,One Year,Credit Card,None,No,No,1
+CUST0195,Male,32,32,945.15,32944.1,One Year,Cash,DSL,No,No,0
+CUST0196,Female,64,2,685.44,28198.14,One Year,Debit Card,None,No,Yes,0
+CUST0197,Female,39,33,948.74,38573.77,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0198,Female,31,30,519.04,108475.23,Month-to-Month,Net Banking,DSL,No,No,0
+CUST0199,Male,43,33,1001.69,9778.07,One Year,UPI,Fiber Optic,No,No,0
+CUST0200,Male,45,26,1664.0,99550.12,Month-to-Month,Net Banking,Fiber Optic,Yes,No,1
+CUST0201,Male,40,22,1114.42,42192.36,Month-to-Month,Cash,Fiber Optic,Yes,Yes,0
+CUST0202,Female,31,66,330.6,62831.13,Month-to-Month,Credit Card,DSL,No,Yes,0
+CUST0203,Male,41,38,1016.45,95441.03,Month-to-Month,Net Banking,None,No,No,0
+CUST0204,Male,19,46,346.2,106183.0,Month-to-Month,UPI,DSL,No,Yes,0
+CUST0205,Female,62,15,1942.61,41701.38,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0206,Male,43,44,516.67,55690.3,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0207,Female,31,49,1503.07,50034.67,One Year,Cash,Fiber Optic,No,No,1
+CUST0208,Female,68,61,1953.72,2083.5,One Year,Cash,None,No,No,0
+CUST0209,Female,24,67,1704.27,35865.18,One Year,Cash,Fiber Optic,Yes,No,0
+CUST0210,Male,20,6,1488.84,55373.11,Two Year,Cash,Fiber Optic,Yes,No,0
+CUST0211,Male,64,9,1727.08,49625.69,Month-to-Month,Cash,DSL,No,No,1
+CUST0212,Male,40,6,1969.06,86770.54,Month-to-Month,Cash,Fiber Optic,Yes,Yes,1
+CUST0213,Male,63,32,1356.29,46484.03,Month-to-Month,Credit Card,Fiber Optic,Yes,Yes,1
+CUST0214,Male,60,41,1250.61,58980.49,Month-to-Month,UPI,Fiber Optic,Yes,Yes,0
+CUST0215,Male,64,8,1368.0,51838.23,Two Year,Cash,DSL,No,Yes,1
+CUST0216,Male,62,50,1205.55,89004.82,Month-to-Month,UPI,Fiber Optic,No,Yes,1
+CUST0217,Female,35,62,1379.65,103625.2,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0218,Male,55,62,1064.73,64060.74,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0219,Female,52,7,671.35,94837.15,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0220,Male,68,4,504.42,35966.01,One Year,Debit Card,DSL,No,Yes,0
+CUST0221,Male,32,6,416.18,65193.67,Month-to-Month,Credit Card,Fiber Optic,Yes,No,0
+CUST0222,Male,42,58,747.64,41754.98,Two Year,Net Banking,DSL,Yes,No,0
+CUST0223,Female,54,22,378.41,49997.01,Month-to-Month,Net Banking,None,No,Yes,0
+CUST0224,Female,45,26,1264.19,88023.46,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0225,Female,27,3,782.51,105858.67,Two Year,Cash,DSL,No,No,0
+CUST0226,Female,56,41,1701.71,15018.7,Month-to-Month,Credit Card,None,No,Yes,1
+CUST0227,Male,34,60,426.21,76339.39,Two Year,Net Banking,Fiber Optic,No,No,0
+CUST0228,Female,56,14,684.8,70066.19,Two Year,Credit Card,DSL,Yes,Yes,0
+CUST0229,Male,39,12,1541.42,14650.6,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0230,Male,43,12,1317.97,25821.37,One Year,Cash,DSL,Yes,Yes,0
+CUST0231,Female,61,13,409.64,37664.8,Month-to-Month,Net Banking,Fiber Optic,Yes,No,1
+CUST0232,Female,42,25,1791.31,20448.26,Two Year,Net Banking,Fiber Optic,No,No,1
+CUST0233,Female,34,45,1791.34,29625.67,Month-to-Month,UPI,None,Yes,No,1
+CUST0234,Female,30,19,861.69,32478.3,One Year,Cash,Fiber Optic,Yes,Yes,0
+CUST0235,Female,37,55,878.69,40613.02,Two Year,Debit Card,Fiber Optic,No,No,0
+CUST0236,Female,42,45,1981.35,90052.16,Two Year,Debit Card,Fiber Optic,No,No,1
+CUST0237,Female,21,8,1364.5,68843.51,One Year,Cash,DSL,Yes,No,1
+CUST0238,Female,27,53,1203.24,118356.48,Month-to-Month,Debit Card,Fiber Optic,Yes,No,0
+CUST0239,Male,20,55,1724.86,50060.93,Two Year,Cash,Fiber Optic,No,No,1
+CUST0240,Female,58,32,784.99,90586.88,One Year,Debit Card,DSL,No,No,0
+CUST0241,Female,62,51,1029.61,104640.48,Two Year,UPI,Fiber Optic,No,No,0
+CUST0242,Male,35,44,755.22,81637.93,One Year,Debit Card,None,No,No,0
+CUST0243,Female,64,70,1641.57,49717.84,Month-to-Month,Net Banking,None,No,No,1
+CUST0244,Male,53,18,1274.69,90554.56,Month-to-Month,Cash,DSL,No,No,1
+CUST0245,Male,64,22,1420.0,24838.22,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0246,Female,39,37,728.92,39642.48,One Year,Credit Card,DSL,No,No,0
+CUST0247,Male,51,56,674.38,65828.89,Month-to-Month,Cash,None,Yes,No,0
+CUST0248,Male,64,59,1130.24,69261.42,Month-to-Month,UPI,DSL,No,Yes,1
+CUST0249,Male,25,3,1553.86,3145.91,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0250,Male,57,28,1192.91,113441.15,One Year,UPI,DSL,Yes,No,0
+CUST0251,Female,66,35,355.5,83746.96,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0252,Male,61,61,1776.54,59736.6,Month-to-Month,Cash,DSL,Yes,No,0
+CUST0253,Female,36,54,409.97,112008.7,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0254,Male,59,63,1924.9,52971.92,Month-to-Month,UPI,DSL,No,Yes,0
+CUST0255,Male,58,7,342.74,117662.05,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0256,Male,54,49,1480.57,61718.03,Month-to-Month,Debit Card,DSL,No,Yes,0
+CUST0257,Male,23,31,439.75,14157.15,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,1
+CUST0258,Female,69,58,1848.15,91893.72,Two Year,Net Banking,None,No,No,0
+CUST0259,Female,43,61,1089.54,81628.28,Two Year,Debit Card,DSL,No,Yes,0
+CUST0260,Male,51,24,533.79,92871.91,Month-to-Month,Net Banking,None,No,No,1
+CUST0261,Male,62,20,879.39,114197.32,Two Year,Credit Card,Fiber Optic,No,No,1
+CUST0262,Female,23,37,580.2,93290.47,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0263,Male,54,4,589.99,73554.72,One Year,Debit Card,Fiber Optic,No,Yes,0
+CUST0264,Male,50,20,1911.78,102948.41,One Year,Net Banking,DSL,Yes,No,0
+CUST0265,Male,39,60,1056.92,80952.95,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0266,Female,38,24,1640.96,49270.23,Month-to-Month,UPI,Fiber Optic,No,Yes,1
+CUST0267,Female,23,50,1387.33,106331.56,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0268,Female,23,49,1449.92,27017.11,Month-to-Month,Cash,Fiber Optic,Yes,Yes,0
+CUST0269,Male,65,51,523.88,85899.63,One Year,Cash,Fiber Optic,Yes,No,0
+CUST0270,Male,21,36,698.11,105846.83,Month-to-Month,Debit Card,None,No,Yes,1
+CUST0271,Female,47,66,1637.48,87892.32,Month-to-Month,UPI,Fiber Optic,No,Yes,0
+CUST0272,Female,28,34,1950.3,83824.41,Month-to-Month,UPI,None,No,Yes,1
+CUST0273,Female,47,36,746.55,90440.28,Month-to-Month,Credit Card,Fiber Optic,No,No,1
+CUST0274,Female,48,6,761.67,56074.1,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0275,Male,41,39,1103.93,104963.4,Month-to-Month,Credit Card,Fiber Optic,No,No,0
+CUST0276,Female,26,42,1972.53,24810.66,Two Year,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0277,Male,20,58,757.23,15722.68,Month-to-Month,Cash,Fiber Optic,No,Yes,0
+CUST0278,Female,68,12,991.85,34618.3,Month-to-Month,Credit Card,Fiber Optic,Yes,Yes,1
+CUST0279,Male,48,3,1815.52,64023.5,One Year,Cash,Fiber Optic,No,No,1
+CUST0280,Female,57,18,304.97,61512.13,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0281,Female,54,40,367.6,98561.55,One Year,Net Banking,Fiber Optic,No,No,0
+CUST0282,Female,53,21,1326.92,48845.95,One Year,Debit Card,DSL,No,Yes,0
+CUST0283,Female,41,15,1842.55,58379.16,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0284,Male,48,26,706.06,2097.44,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0285,Female,23,8,1098.39,49463.84,Month-to-Month,Cash,DSL,Yes,No,0
+CUST0286,Male,19,42,1065.79,77909.02,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0287,Male,37,44,1104.05,2353.25,Month-to-Month,Debit Card,Fiber Optic,Yes,No,1
+CUST0288,Male,45,14,1358.28,34065.39,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0289,Male,28,2,1098.56,25350.78,Month-to-Month,Debit Card,DSL,Yes,No,1
+CUST0290,Female,21,37,1060.7,5517.26,Month-to-Month,Credit Card,DSL,Yes,No,1
+CUST0291,Male,32,69,1106.29,57771.58,One Year,UPI,None,No,No,0
+CUST0292,Male,23,38,1304.47,22215.93,Month-to-Month,UPI,DSL,No,No,0
+CUST0293,Male,66,41,1212.91,89298.24,Month-to-Month,UPI,DSL,No,No,1
+CUST0294,Female,47,62,1752.03,101827.38,Month-to-Month,Debit Card,Fiber Optic,Yes,No,0
+CUST0295,Female,55,60,384.14,65697.43,Two Year,Debit Card,DSL,No,No,0
+CUST0296,Female,68,14,1716.64,117814.03,Month-to-Month,Credit Card,DSL,Yes,Yes,0
+CUST0297,Female,19,2,1734.67,54332.19,Two Year,Net Banking,DSL,No,No,0
+CUST0298,Male,32,70,784.34,61847.5,Month-to-Month,Credit Card,Fiber Optic,No,No,0
+CUST0299,Male,28,17,1086.85,118711.52,One Year,UPI,Fiber Optic,No,Yes,0
+CUST0300,Female,25,28,1045.52,28170.04,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0301,Male,43,66,671.47,113134.24,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0302,Male,68,35,974.55,5619.09,Month-to-Month,Debit Card,None,No,Yes,1
+CUST0303,Male,62,5,375.46,53843.23,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0304,Female,61,65,772.3,8865.42,Month-to-Month,UPI,DSL,No,Yes,0
+CUST0305,Female,22,40,1688.36,87643.55,Month-to-Month,UPI,DSL,No,No,1
+CUST0306,Male,23,56,783.76,73204.87,One Year,Debit Card,Fiber Optic,Yes,No,0
+CUST0307,Female,43,36,1690.95,84942.79,Two Year,Credit Card,Fiber Optic,No,No,1
+CUST0308,Female,21,45,1203.72,45250.41,Month-to-Month,Net Banking,DSL,No,No,0
+CUST0309,Female,36,23,1795.77,44653.09,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0310,Female,37,47,1277.13,5915.65,Month-to-Month,Credit Card,DSL,Yes,No,0
+CUST0311,Female,50,31,350.44,42318.42,One Year,Cash,Fiber Optic,Yes,No,0
+CUST0312,Male,37,11,1448.21,111549.96,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0313,Female,66,10,376.25,45817.57,Two Year,Net Banking,DSL,No,No,0
+CUST0314,Male,29,67,1066.01,99848.44,Month-to-Month,Net Banking,Fiber Optic,Yes,No,0
+CUST0315,Male,64,14,1880.03,101157.9,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0316,Female,18,10,580.85,45102.32,One Year,UPI,Fiber Optic,No,No,0
+CUST0317,Male,43,1,962.78,76022.65,One Year,Credit Card,DSL,No,Yes,1
+CUST0318,Male,31,5,1540.76,11896.91,Month-to-Month,Debit Card,None,Yes,Yes,1
+CUST0319,Male,55,20,1799.84,12889.59,Month-to-Month,Credit Card,DSL,Yes,No,0
+CUST0320,Female,54,8,1440.6,6314.59,Two Year,Debit Card,None,No,No,1
+CUST0321,Female,28,43,738.89,69931.3,Month-to-Month,Net Banking,DSL,Yes,No,0
+CUST0322,Male,53,1,1446.83,51415.48,Two Year,Credit Card,Fiber Optic,Yes,No,0
+CUST0323,Female,30,57,804.44,65989.87,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0324,Female,60,64,1521.33,62768.25,One Year,Cash,None,No,Yes,0
+CUST0325,Female,20,28,1921.86,42349.26,One Year,Net Banking,DSL,Yes,No,1
+CUST0326,Female,50,37,1526.37,81458.07,Month-to-Month,Net Banking,DSL,Yes,No,1
+CUST0327,Male,23,47,1766.9,91140.97,Two Year,Debit Card,Fiber Optic,Yes,Yes,1
+CUST0328,Male,67,37,303.58,2248.08,Month-to-Month,Cash,DSL,Yes,No,0
+CUST0329,Female,27,49,1519.87,25265.45,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0330,Female,22,44,1710.3,85731.69,Month-to-Month,Net Banking,None,No,No,0
+CUST0331,Male,40,56,368.95,46701.11,Month-to-Month,Cash,None,No,No,0
+CUST0332,Male,27,28,1781.72,79666.83,One Year,Cash,DSL,No,Yes,0
+CUST0333,Female,61,6,736.38,41962.04,Month-to-Month,Credit Card,None,No,No,1
+CUST0334,Male,19,61,1431.0,47195.24,Month-to-Month,Debit Card,Fiber Optic,Yes,No,0
+CUST0335,Female,30,20,1660.6,19462.13,Month-to-Month,Cash,DSL,No,No,1
+CUST0336,Female,57,2,1426.53,31358.61,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0337,Male,19,37,456.88,72846.71,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0338,Male,37,20,1313.75,52262.99,One Year,Cash,None,Yes,Yes,0
+CUST0339,Female,18,26,1234.29,93029.17,Two Year,Debit Card,DSL,No,Yes,0
+CUST0340,Female,54,29,1830.55,102383.9,One Year,Net Banking,Fiber Optic,No,No,0
+CUST0341,Male,26,1,987.21,65226.75,Month-to-Month,Net Banking,DSL,No,Yes,0
+CUST0342,Female,34,35,845.84,91112.94,Month-to-Month,Net Banking,DSL,Yes,No,0
+CUST0343,Male,26,70,1574.75,37175.09,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0344,Female,28,59,1001.55,50089.06,Month-to-Month,UPI,None,No,No,0
+CUST0345,Male,32,69,1398.36,85676.93,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0346,Male,41,33,1398.97,46652.33,Month-to-Month,Net Banking,Fiber Optic,No,Yes,0
+CUST0347,Male,55,51,1809.67,70826.34,Month-to-Month,Credit Card,Fiber Optic,Yes,Yes,1
+CUST0348,Female,52,12,1317.78,22652.05,Two Year,Net Banking,DSL,Yes,No,0
+CUST0349,Female,47,20,1153.66,72172.67,Month-to-Month,Cash,DSL,No,No,0
+CUST0350,Male,48,53,536.08,103450.89,Month-to-Month,Net Banking,DSL,No,Yes,0
+CUST0351,Female,66,43,496.75,104302.44,Month-to-Month,UPI,DSL,Yes,No,1
+CUST0352,Male,22,50,562.35,87059.16,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0353,Male,61,29,592.14,89617.53,Two Year,Debit Card,Fiber Optic,No,No,0
+CUST0354,Female,67,57,1384.39,67172.33,Month-to-Month,Cash,DSL,Yes,Yes,1
+CUST0355,Female,31,39,1559.67,70367.84,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0356,Male,28,56,1200.99,16471.24,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0357,Female,26,43,1709.33,53541.17,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0358,Female,51,50,1985.15,54367.77,Month-to-Month,Cash,None,No,No,1
+CUST0359,Male,29,23,1694.02,115040.49,One Year,Cash,Fiber Optic,No,No,0
+CUST0360,Male,52,44,1481.3,52014.88,One Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0361,Female,52,38,1205.24,66146.45,One Year,Debit Card,Fiber Optic,No,Yes,0
+CUST0362,Male,18,23,1063.05,64223.54,Month-to-Month,Debit Card,DSL,Yes,No,1
+CUST0363,Male,57,45,443.47,76593.03,One Year,UPI,DSL,No,No,0
+CUST0364,Female,39,52,978.93,89913.82,Month-to-Month,Net Banking,None,Yes,Yes,0
+CUST0365,Male,46,50,1847.23,27392.5,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0366,Male,25,8,1673.64,63682.57,One Year,Cash,DSL,No,Yes,1
+CUST0367,Female,28,1,667.29,99197.17,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0368,Female,58,8,1093.23,55842.21,Month-to-Month,Net Banking,Fiber Optic,Yes,No,1
+CUST0369,Male,54,29,1688.43,33775.68,One Year,Credit Card,Fiber Optic,No,Yes,0
+CUST0370,Male,31,5,414.55,78737.73,Month-to-Month,Cash,None,No,Yes,1
+CUST0371,Female,47,47,958.57,98940.2,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0372,Female,52,34,1748.13,8045.27,Month-to-Month,Credit Card,Fiber Optic,Yes,No,0
+CUST0373,Female,38,65,986.63,93326.46,Two Year,Credit Card,DSL,No,Yes,1
+CUST0374,Female,54,55,431.94,98686.93,Two Year,Credit Card,DSL,No,No,0
+CUST0375,Male,22,43,1222.31,55651.99,Two Year,Cash,DSL,Yes,No,0
+CUST0376,Female,36,30,1764.96,118005.03,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0377,Female,31,17,1303.49,94511.65,Month-to-Month,Credit Card,Fiber Optic,No,No,0
+CUST0378,Male,43,26,684.67,92952.68,Month-to-Month,Net Banking,Fiber Optic,No,Yes,0
+CUST0379,Female,21,8,953.21,89866.71,Month-to-Month,Cash,DSL,No,No,1
+CUST0380,Male,42,47,1065.21,18497.67,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0381,Female,62,46,1284.75,26459.09,Month-to-Month,UPI,DSL,No,No,0
+CUST0382,Female,59,68,1590.9,55946.82,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0383,Female,42,33,468.09,32048.52,Two Year,Debit Card,DSL,No,No,0
+CUST0384,Male,35,1,1812.41,50121.3,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0385,Male,57,19,320.93,106671.46,Month-to-Month,Cash,DSL,No,Yes,0
+CUST0386,Female,25,31,929.09,99007.06,Month-to-Month,Credit Card,Fiber Optic,Yes,Yes,0
+CUST0387,Male,56,14,346.61,75789.77,Two Year,Cash,Fiber Optic,No,Yes,0
+CUST0388,Male,57,53,968.06,103045.39,One Year,UPI,None,No,No,1
+CUST0389,Male,31,48,1193.88,94160.8,One Year,Credit Card,DSL,Yes,No,0
+CUST0390,Male,49,69,1169.86,51763.7,Two Year,Net Banking,DSL,Yes,Yes,0
+CUST0391,Male,68,62,581.57,24527.29,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0392,Male,55,66,1397.76,61947.02,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0393,Female,50,64,376.12,88479.35,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0394,Female,40,70,1595.24,52652.14,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0395,Male,32,63,1909.3,80179.24,Month-to-Month,Credit Card,Fiber Optic,Yes,No,1
+CUST0396,Female,50,33,877.61,11772.13,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0397,Female,42,41,1179.31,89886.57,Two Year,UPI,Fiber Optic,No,Yes,1
+CUST0398,Female,34,48,944.15,97619.28,Two Year,Cash,DSL,No,No,0
+CUST0399,Female,50,13,311.41,84967.12,One Year,Net Banking,DSL,Yes,Yes,0
+CUST0400,Male,64,31,955.99,116088.0,One Year,Net Banking,DSL,No,Yes,1
+CUST0401,Female,19,68,1645.92,99284.92,One Year,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0402,Female,31,4,1313.18,108419.7,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0403,Male,57,19,472.14,112061.74,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0404,Male,57,70,1740.14,96261.09,One Year,Cash,None,No,No,0
+CUST0405,Female,68,13,1202.85,81073.93,One Year,Cash,DSL,Yes,Yes,0
+CUST0406,Female,56,23,1730.93,1183.37,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0407,Female,68,1,1286.38,56166.18,Two Year,Credit Card,Fiber Optic,No,Yes,0
+CUST0408,Female,23,54,1251.47,68753.89,Month-to-Month,Cash,DSL,No,No,1
+CUST0409,Female,23,71,478.94,36831.62,Month-to-Month,UPI,DSL,No,No,0
+CUST0410,Female,20,15,584.51,38513.48,One Year,Credit Card,DSL,No,Yes,0
+CUST0411,Male,24,65,1952.44,115358.55,Month-to-Month,Credit Card,Fiber Optic,No,No,0
+CUST0412,Female,68,71,688.43,107059.45,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0413,Female,25,15,1961.67,101976.89,Month-to-Month,UPI,Fiber Optic,No,Yes,0
+CUST0414,Male,59,21,1204.25,49018.41,One Year,Debit Card,None,Yes,Yes,0
+CUST0415,Male,69,19,530.84,2136.98,Month-to-Month,Cash,Fiber Optic,No,Yes,0
+CUST0416,Male,32,60,468.81,10086.56,One Year,UPI,DSL,No,Yes,1
+CUST0417,Male,64,33,655.07,37807.47,Month-to-Month,Credit Card,DSL,Yes,No,0
+CUST0418,Female,46,49,1873.58,2381.28,Month-to-Month,UPI,Fiber Optic,No,Yes,0
+CUST0419,Female,50,35,1004.06,2549.4,Two Year,Credit Card,DSL,No,No,0
+CUST0420,Female,69,44,972.24,110034.09,Month-to-Month,Cash,DSL,No,Yes,0
+CUST0421,Female,47,11,832.45,84885.94,Two Year,Cash,Fiber Optic,No,Yes,0
+CUST0422,Female,56,66,550.01,37420.24,Month-to-Month,Net Banking,Fiber Optic,Yes,No,0
+CUST0423,Female,44,46,1129.35,16351.03,Two Year,Net Banking,None,No,No,0
+CUST0424,Male,53,9,521.08,61640.47,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,1
+CUST0425,Female,46,3,1720.32,1138.87,Month-to-Month,Cash,DSL,No,No,0
+CUST0426,Male,55,26,929.67,112640.44,Month-to-Month,Debit Card,None,Yes,Yes,1
+CUST0427,Male,50,48,937.17,50070.41,Month-to-Month,Cash,DSL,Yes,Yes,0
+CUST0428,Female,54,66,1105.81,48579.03,One Year,UPI,DSL,No,Yes,0
+CUST0429,Male,44,70,1055.02,47175.94,Month-to-Month,Cash,Fiber Optic,No,Yes,0
+CUST0430,Female,50,28,1991.26,8784.74,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0431,Male,21,26,1227.15,76779.51,Month-to-Month,Credit Card,Fiber Optic,No,Yes,0
+CUST0432,Female,39,25,449.94,88093.93,Month-to-Month,Credit Card,DSL,Yes,No,0
+CUST0433,Male,19,12,1331.69,81296.99,One Year,Credit Card,Fiber Optic,Yes,Yes,1
+CUST0434,Female,27,5,557.69,17043.04,Month-to-Month,Cash,DSL,No,No,1
+CUST0435,Female,22,48,352.59,69671.4,One Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0436,Female,27,37,1950.26,68553.4,One Year,UPI,Fiber Optic,No,No,1
+CUST0437,Female,50,44,1615.02,104275.09,One Year,UPI,DSL,No,No,0
+CUST0438,Female,55,15,1966.19,45805.76,Month-to-Month,Debit Card,DSL,No,Yes,0
+CUST0439,Male,30,43,1112.39,44892.57,One Year,Debit Card,DSL,No,Yes,0
+CUST0440,Male,48,48,1204.84,74413.98,Two Year,UPI,DSL,No,No,1
+CUST0441,Male,64,70,586.17,76152.18,One Year,Net Banking,Fiber Optic,No,No,1
+CUST0442,Female,53,46,719.74,56579.58,Month-to-Month,Credit Card,Fiber Optic,Yes,Yes,0
+CUST0443,Male,62,43,1725.53,53445.59,One Year,Credit Card,DSL,Yes,Yes,0
+CUST0444,Female,41,21,905.52,59550.65,One Year,UPI,DSL,No,No,0
+CUST0445,Female,69,23,1705.59,103394.91,One Year,Debit Card,DSL,No,Yes,0
+CUST0446,Male,32,47,1505.32,55609.44,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0447,Male,46,15,601.19,112821.85,Month-to-Month,UPI,DSL,No,Yes,1
+CUST0448,Female,25,25,1162.66,60728.45,One Year,Credit Card,None,Yes,Yes,0
+CUST0449,Male,22,36,1451.56,113929.48,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0450,Female,46,51,699.56,100023.41,One Year,Debit Card,DSL,No,No,0
+CUST0451,Female,64,15,1712.17,43810.54,Month-to-Month,Cash,Fiber Optic,Yes,Yes,0
+CUST0452,Female,21,68,1226.21,103705.15,Month-to-Month,UPI,None,No,No,1
+CUST0453,Female,29,21,580.91,13652.56,Month-to-Month,Credit Card,Fiber Optic,Yes,No,0
+CUST0454,Female,62,13,1291.07,111043.14,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0455,Male,19,19,1999.51,75981.4,Two Year,Cash,DSL,No,Yes,0
+CUST0456,Male,44,34,555.89,6999.69,Two Year,Net Banking,Fiber Optic,No,No,0
+CUST0457,Female,48,68,1688.49,77488.68,One Year,Credit Card,Fiber Optic,No,No,1
+CUST0458,Female,68,52,652.43,116922.59,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0459,Male,68,27,1630.06,8841.18,One Year,Net Banking,None,No,No,0
+CUST0460,Male,53,29,1548.78,66785.18,One Year,Net Banking,None,No,Yes,0
+CUST0461,Female,53,28,810.83,89861.42,Month-to-Month,Cash,None,No,No,1
+CUST0462,Male,43,35,853.9,97325.9,Month-to-Month,Credit Card,DSL,No,No,0
+CUST0463,Female,60,8,1647.29,49952.38,One Year,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0464,Male,44,16,1084.46,24897.9,One Year,UPI,Fiber Optic,No,No,0
+CUST0465,Female,22,36,1542.39,5559.9,Two Year,Cash,Fiber Optic,Yes,Yes,0
+CUST0466,Male,37,30,551.57,69777.28,Month-to-Month,Debit Card,Fiber Optic,Yes,No,0
+CUST0467,Female,28,18,1749.35,54622.87,One Year,Debit Card,DSL,No,Yes,0
+CUST0468,Male,27,2,1508.5,113874.96,Month-to-Month,Credit Card,Fiber Optic,No,No,1
+CUST0469,Male,57,49,1841.8,7742.29,Month-to-Month,UPI,Fiber Optic,Yes,No,1
+CUST0470,Female,55,4,525.03,82404.74,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0471,Male,23,7,1308.12,3483.46,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0472,Female,25,39,1318.5,20986.38,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0473,Male,40,13,900.88,54702.69,Month-to-Month,UPI,DSL,Yes,Yes,1
+CUST0474,Female,64,31,1079.39,54857.26,One Year,UPI,DSL,No,No,0
+CUST0475,Male,43,71,364.57,82441.21,One Year,Credit Card,Fiber Optic,No,No,0
+CUST0476,Female,63,63,1567.96,109270.46,Month-to-Month,Credit Card,Fiber Optic,No,No,1
+CUST0477,Male,60,56,1233.85,76864.34,Two Year,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0478,Female,29,42,398.16,114447.44,Month-to-Month,Credit Card,Fiber Optic,Yes,No,1
+CUST0479,Male,43,61,1457.29,105853.07,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0480,Female,30,42,1093.53,70347.73,One Year,Net Banking,DSL,No,No,1
+CUST0481,Female,57,56,358.58,100138.14,Month-to-Month,Cash,DSL,Yes,Yes,0
+CUST0482,Female,35,36,1948.33,77288.02,Month-to-Month,UPI,None,Yes,Yes,0
+CUST0483,Male,42,68,1913.49,9887.66,Month-to-Month,UPI,DSL,No,No,1
+CUST0484,Female,50,7,1171.93,88997.48,Month-to-Month,UPI,None,Yes,Yes,0
+CUST0485,Male,64,54,459.24,11841.56,One Year,Cash,Fiber Optic,No,No,0
+CUST0486,Female,57,1,1582.86,71492.89,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,1
+CUST0487,Male,60,44,1136.28,84465.5,Month-to-Month,Net Banking,None,Yes,No,1
+CUST0488,Female,29,45,814.16,8450.05,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0489,Male,61,47,1135.41,28079.96,One Year,Cash,DSL,No,No,1
+CUST0490,Male,53,13,1188.16,109922.83,Month-to-Month,Credit Card,Fiber Optic,No,No,1
+CUST0491,Female,65,22,1256.61,74149.58,One Year,Cash,DSL,No,Yes,1
+CUST0492,Male,21,21,1050.08,29931.18,Month-to-Month,Credit Card,None,No,Yes,1
+CUST0493,Male,22,9,1329.78,83036.23,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0494,Female,54,26,1861.85,71814.78,Month-to-Month,UPI,Fiber Optic,Yes,No,1
+CUST0495,Male,25,9,915.86,60438.3,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0496,Male,59,15,1533.72,117154.34,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0497,Male,66,10,1820.57,82172.73,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0498,Female,45,42,1075.16,45365.21,Two Year,UPI,DSL,Yes,No,0
+CUST0499,Male,48,24,1053.87,96108.78,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0500,Female,26,49,1323.6,106207.7,One Year,Debit Card,DSL,No,Yes,1
+CUST0501,Male,68,26,1305.39,15463.86,Month-to-Month,UPI,Fiber Optic,No,Yes,1
+CUST0502,Male,46,37,1671.2,24466.08,Month-to-Month,Credit Card,Fiber Optic,Yes,No,0
+CUST0503,Male,31,68,1110.02,26339.13,Month-to-Month,Cash,Fiber Optic,Yes,No,0
+CUST0504,Female,57,50,1993.41,83099.81,Two Year,Debit Card,Fiber Optic,No,Yes,1
+CUST0505,Male,58,24,401.1,72563.23,Month-to-Month,Net Banking,DSL,Yes,No,0
+CUST0506,Male,39,19,305.39,74469.49,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0507,Female,28,60,1388.34,112922.41,Month-to-Month,Net Banking,None,No,No,1
+CUST0508,Male,40,39,807.34,93221.43,Month-to-Month,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0509,Female,18,18,708.65,15788.46,Month-to-Month,Net Banking,None,No,Yes,1
+CUST0510,Female,63,19,830.23,42027.1,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0511,Male,54,36,735.28,52529.54,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0512,Female,38,55,352.34,47817.41,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0513,Male,43,69,1951.61,80482.38,One Year,Credit Card,None,Yes,Yes,0
+CUST0514,Female,63,47,675.27,107081.23,Month-to-Month,UPI,DSL,No,Yes,0
+CUST0515,Female,53,49,1547.85,37073.15,Month-to-Month,UPI,None,Yes,No,0
+CUST0516,Male,40,33,1596.41,66449.32,Month-to-Month,Debit Card,None,No,No,0
+CUST0517,Female,18,21,1879.74,94834.43,One Year,Cash,DSL,Yes,No,0
+CUST0518,Female,68,22,351.93,50238.06,Month-to-Month,Net Banking,DSL,No,No,0
+CUST0519,Female,57,48,1782.48,20590.12,Month-to-Month,Net Banking,Fiber Optic,No,Yes,0
+CUST0520,Female,32,37,1196.28,57256.64,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0521,Female,38,15,1375.32,7099.09,Month-to-Month,Credit Card,Fiber Optic,Yes,No,1
+CUST0522,Male,64,35,1395.6,113114.82,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0523,Female,26,71,1693.66,9441.13,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0524,Male,26,32,866.79,52895.58,One Year,Debit Card,Fiber Optic,No,Yes,0
+CUST0525,Female,27,11,1546.19,63820.81,One Year,UPI,DSL,Yes,Yes,0
+CUST0526,Male,69,10,1198.58,118243.81,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0527,Male,43,57,1648.77,20339.61,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0528,Female,58,25,1983.93,14174.57,Month-to-Month,Net Banking,DSL,Yes,Yes,0
+CUST0529,Female,52,2,641.11,1540.38,Month-to-Month,Credit Card,Fiber Optic,No,No,1
+CUST0530,Female,69,64,1990.9,19090.79,Month-to-Month,Credit Card,Fiber Optic,Yes,No,1
+CUST0531,Male,42,35,452.68,25269.12,One Year,Credit Card,DSL,No,No,0
+CUST0532,Female,43,7,303.94,75854.42,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0533,Male,28,18,375.08,26754.96,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0534,Male,55,67,881.03,2952.24,Month-to-Month,Cash,DSL,No,No,1
+CUST0535,Male,19,42,1375.94,99280.89,Month-to-Month,Net Banking,DSL,Yes,Yes,0
+CUST0536,Female,24,39,417.35,44188.69,Month-to-Month,Debit Card,None,No,Yes,1
+CUST0537,Female,35,41,309.63,42766.75,One Year,Debit Card,Fiber Optic,Yes,No,0
+CUST0538,Male,44,24,1893.05,36646.24,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0539,Male,51,60,1697.28,117057.11,One Year,Net Banking,Fiber Optic,No,No,0
+CUST0540,Female,44,46,1675.61,20828.79,One Year,Debit Card,DSL,No,No,0
+CUST0541,Male,34,19,1803.52,107839.45,One Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0542,Female,60,68,1490.06,93328.0,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0543,Male,61,42,477.49,9639.35,Month-to-Month,Net Banking,Fiber Optic,No,Yes,0
+CUST0544,Female,68,32,978.47,118414.13,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0545,Male,41,39,1529.35,32928.23,One Year,Credit Card,DSL,Yes,Yes,0
+CUST0546,Female,42,36,776.57,12280.66,Month-to-Month,Net Banking,DSL,Yes,No,0
+CUST0547,Male,24,36,1468.59,99603.05,Two Year,Credit Card,None,Yes,Yes,0
+CUST0548,Female,69,3,341.65,84947.73,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0549,Female,23,8,820.43,74257.65,Month-to-Month,Net Banking,Fiber Optic,Yes,No,1
+CUST0550,Male,41,70,1233.52,19139.71,Month-to-Month,UPI,DSL,No,No,0
+CUST0551,Male,50,41,1374.55,57680.29,Month-to-Month,Debit Card,DSL,Yes,No,0
+CUST0552,Female,66,68,1280.97,93776.45,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0553,Male,46,13,1486.19,36783.06,One Year,Cash,Fiber Optic,No,No,0
+CUST0554,Female,60,49,310.35,37746.93,One Year,Debit Card,Fiber Optic,No,No,0
+CUST0555,Male,39,60,471.6,875.34,One Year,UPI,DSL,No,No,0
+CUST0556,Female,43,2,1777.21,21322.09,Two Year,Debit Card,Fiber Optic,Yes,No,1
+CUST0557,Female,45,60,1458.97,105110.97,One Year,Net Banking,DSL,Yes,No,0
+CUST0558,Female,67,5,491.98,53288.71,Month-to-Month,Debit Card,DSL,Yes,No,0
+CUST0559,Female,38,44,1731.53,118116.02,One Year,Cash,Fiber Optic,No,No,1
+CUST0560,Female,66,27,711.79,47787.1,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0561,Female,24,32,1113.04,85964.78,Month-to-Month,UPI,DSL,No,No,0
+CUST0562,Male,34,21,546.83,34189.33,One Year,UPI,Fiber Optic,No,No,0
+CUST0563,Male,37,8,1507.19,43975.25,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0564,Male,58,50,1433.65,23291.76,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0565,Female,66,67,658.89,41973.95,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0566,Female,37,44,1767.78,65894.88,Month-to-Month,Cash,DSL,Yes,No,0
+CUST0567,Female,39,58,982.22,119016.86,Two Year,Net Banking,DSL,No,No,0
+CUST0568,Female,45,3,797.28,79872.1,Month-to-Month,Cash,None,No,Yes,0
+CUST0569,Male,57,70,558.96,24309.89,Month-to-Month,Credit Card,Fiber Optic,No,No,0
+CUST0570,Male,66,2,752.49,5872.89,Month-to-Month,Cash,Fiber Optic,No,No,0
+CUST0571,Female,24,44,337.45,15599.6,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0572,Male,18,2,1291.54,67725.35,Two Year,Net Banking,Fiber Optic,Yes,Yes,1
+CUST0573,Male,49,35,1731.79,91936.66,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0574,Female,30,30,1233.27,112880.1,Month-to-Month,Credit Card,Fiber Optic,No,No,1
+CUST0575,Male,47,8,672.77,2390.87,One Year,Net Banking,None,Yes,Yes,1
+CUST0576,Female,40,22,357.24,62969.84,Two Year,UPI,None,No,Yes,0
+CUST0577,Male,68,44,664.87,56768.65,One Year,Cash,Fiber Optic,No,Yes,0
+CUST0578,Female,36,58,1007.41,78898.58,One Year,Debit Card,Fiber Optic,No,No,1
+CUST0579,Female,49,36,1591.34,67369.67,Month-to-Month,Credit Card,None,Yes,Yes,0
+CUST0580,Female,47,69,619.33,82601.18,Month-to-Month,UPI,Fiber Optic,No,Yes,0
+CUST0581,Female,46,31,1523.65,79140.87,Month-to-Month,Cash,DSL,No,No,1
+CUST0582,Male,66,47,1773.79,14482.9,Two Year,UPI,Fiber Optic,No,Yes,0
+CUST0583,Female,62,55,1071.71,96066.29,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0584,Female,46,62,1696.43,15226.29,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0585,Female,47,30,1242.92,83974.41,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0586,Male,33,55,1383.05,50229.37,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0587,Female,57,16,1194.67,61905.16,Month-to-Month,UPI,DSL,No,No,1
+CUST0588,Male,36,12,1087.39,108444.11,Two Year,Net Banking,DSL,No,No,0
+CUST0589,Female,35,17,698.91,106841.11,Month-to-Month,Credit Card,Fiber Optic,Yes,No,0
+CUST0590,Male,18,16,815.43,98233.83,One Year,Cash,Fiber Optic,No,Yes,0
+CUST0591,Male,31,12,792.95,61462.73,One Year,UPI,Fiber Optic,No,Yes,0
+CUST0592,Female,68,8,1257.59,88480.66,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0593,Male,64,3,503.92,61791.2,Month-to-Month,Credit Card,None,Yes,Yes,1
+CUST0594,Female,67,16,1858.55,104417.93,Month-to-Month,Cash,None,No,No,0
+CUST0595,Female,19,30,1525.11,48631.71,Month-to-Month,Net Banking,DSL,Yes,No,1
+CUST0596,Female,45,23,982.46,116443.12,One Year,Cash,DSL,Yes,Yes,0
+CUST0597,Male,66,5,569.66,111912.57,Month-to-Month,UPI,Fiber Optic,No,Yes,1
+CUST0598,Male,67,65,1799.39,89121.51,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0599,Female,47,30,1700.42,33890.2,Month-to-Month,Net Banking,None,No,No,0
+CUST0600,Female,55,21,1526.93,16232.6,Two Year,Credit Card,None,Yes,No,0
+CUST0601,Male,68,70,761.63,102637.06,One Year,UPI,Fiber Optic,No,No,1
+CUST0602,Female,21,22,984.16,20253.62,One Year,Credit Card,Fiber Optic,Yes,Yes,0
+CUST0603,Female,18,32,474.67,102584.16,One Year,Credit Card,DSL,No,No,0
+CUST0604,Female,25,33,621.37,59146.42,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0605,Male,46,16,1631.13,49083.54,One Year,Credit Card,Fiber Optic,No,Yes,0
+CUST0606,Male,56,38,1515.57,108431.3,Month-to-Month,Cash,Fiber Optic,No,No,0
+CUST0607,Male,20,14,1308.93,72660.19,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0608,Female,49,36,1822.74,69405.37,One Year,Debit Card,Fiber Optic,No,Yes,1
+CUST0609,Female,27,23,1291.55,67272.53,Month-to-Month,Net Banking,DSL,Yes,No,0
+CUST0610,Female,27,66,1093.85,44854.76,One Year,Net Banking,Fiber Optic,No,Yes,0
+CUST0611,Male,36,2,878.63,94384.35,Two Year,UPI,DSL,No,No,0
+CUST0612,Female,63,65,1898.76,30709.41,Month-to-Month,UPI,Fiber Optic,Yes,Yes,0
+CUST0613,Female,51,67,440.62,112697.95,One Year,Debit Card,Fiber Optic,No,No,1
+CUST0614,Female,50,52,1882.51,107331.23,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0615,Female,40,62,1705.41,40828.9,Month-to-Month,UPI,None,Yes,No,1
+CUST0616,Male,45,23,520.88,87670.92,Month-to-Month,UPI,DSL,Yes,No,1
+CUST0617,Male,49,26,1260.47,69000.17,Month-to-Month,Net Banking,Fiber Optic,Yes,No,1
+CUST0618,Female,67,68,1773.13,40849.09,Two Year,Debit Card,DSL,No,No,0
+CUST0619,Male,24,55,1272.08,118628.34,Two Year,Net Banking,Fiber Optic,No,No,0
+CUST0620,Male,46,6,1842.24,3515.86,One Year,Cash,None,Yes,No,1
+CUST0621,Female,25,35,1903.07,30691.2,Month-to-Month,Net Banking,Fiber Optic,Yes,No,0
+CUST0622,Female,18,22,1018.05,62648.85,Two Year,Cash,None,No,No,0
+CUST0623,Male,20,43,941.43,62873.38,Month-to-Month,Credit Card,DSL,No,No,0
+CUST0624,Female,41,15,1891.75,70877.5,Two Year,Credit Card,None,No,No,1
+CUST0625,Male,40,60,1447.74,90325.3,Month-to-Month,Cash,DSL,No,No,1
+CUST0626,Female,25,12,497.24,75005.6,Month-to-Month,Cash,None,Yes,Yes,0
+CUST0627,Male,64,49,371.9,72233.63,One Year,Net Banking,DSL,No,Yes,1
+CUST0628,Female,54,42,1259.87,6894.98,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0629,Male,20,38,1881.29,45495.37,Month-to-Month,Debit Card,Fiber Optic,Yes,No,1
+CUST0630,Male,68,45,1735.22,28230.66,Month-to-Month,Credit Card,None,No,Yes,1
+CUST0631,Male,50,35,1448.94,32211.73,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0632,Female,45,30,536.5,66743.33,Month-to-Month,Cash,DSL,No,No,0
+CUST0633,Male,64,30,732.19,24340.89,Month-to-Month,UPI,None,Yes,Yes,0
+CUST0634,Male,25,6,1788.37,35626.92,Month-to-Month,UPI,DSL,No,No,1
+CUST0635,Female,51,67,610.77,28831.62,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0636,Female,52,7,773.35,113846.1,One Year,Debit Card,Fiber Optic,No,Yes,1
+CUST0637,Male,49,52,520.32,113387.55,Month-to-Month,UPI,DSL,No,No,0
+CUST0638,Male,41,14,1449.38,73388.02,Two Year,Cash,None,Yes,No,0
+CUST0639,Female,31,15,1904.77,110980.44,Two Year,Debit Card,Fiber Optic,Yes,No,0
+CUST0640,Female,49,21,757.25,94404.61,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0641,Female,63,35,1108.19,70998.77,One Year,Net Banking,None,Yes,No,0
+CUST0642,Female,60,66,1378.38,1269.01,One Year,Debit Card,Fiber Optic,No,Yes,0
+CUST0643,Female,33,2,1999.09,92815.7,Two Year,UPI,DSL,No,Yes,1
+CUST0644,Male,21,35,478.17,84447.36,Month-to-Month,UPI,DSL,No,Yes,1
+CUST0645,Female,69,20,1147.57,74022.81,Month-to-Month,Cash,Fiber Optic,No,Yes,0
+CUST0646,Male,54,10,954.7,91370.71,One Year,Cash,DSL,No,Yes,0
+CUST0647,Male,38,25,1771.89,61794.2,One Year,Debit Card,None,Yes,Yes,0
+CUST0648,Male,31,66,1109.15,84637.95,One Year,Credit Card,Fiber Optic,No,No,0
+CUST0649,Female,48,25,488.66,112253.06,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0650,Male,65,54,1378.52,45408.7,Two Year,Credit Card,Fiber Optic,No,Yes,0
+CUST0651,Male,35,33,1610.33,85120.56,Two Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0652,Female,24,36,304.9,57344.69,Month-to-Month,Debit Card,None,No,No,1
+CUST0653,Male,27,14,1760.23,81090.76,Month-to-Month,Credit Card,None,Yes,Yes,0
+CUST0654,Male,24,65,616.24,91665.75,Month-to-Month,Net Banking,Fiber Optic,Yes,No,1
+CUST0655,Female,50,54,1238.52,5931.57,One Year,Credit Card,Fiber Optic,Yes,No,0
+CUST0656,Male,40,52,1006.86,77768.75,One Year,Cash,Fiber Optic,No,Yes,0
+CUST0657,Male,38,3,1523.41,27595.57,One Year,UPI,Fiber Optic,Yes,No,0
+CUST0658,Male,36,41,930.97,80568.89,Month-to-Month,Cash,DSL,Yes,Yes,1
+CUST0659,Female,65,6,1778.6,56465.46,Month-to-Month,UPI,DSL,Yes,No,1
+CUST0660,Female,36,25,1541.84,92939.55,Month-to-Month,Debit Card,Fiber Optic,Yes,No,0
+CUST0661,Female,53,13,1401.11,15246.4,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0662,Male,46,8,1653.61,75345.52,One Year,Credit Card,DSL,Yes,Yes,1
+CUST0663,Male,35,21,1581.84,33777.25,Two Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0664,Female,19,68,361.1,102431.35,Two Year,Credit Card,DSL,No,No,0
+CUST0665,Male,18,25,971.05,111441.83,Two Year,Cash,Fiber Optic,No,Yes,0
+CUST0666,Male,64,68,1882.37,119569.6,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0667,Female,22,45,513.73,95622.88,Month-to-Month,Credit Card,None,No,No,0
+CUST0668,Female,37,60,1553.06,90571.22,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0669,Male,28,12,1956.81,26252.34,Two Year,Credit Card,DSL,No,Yes,1
+CUST0670,Male,59,32,388.74,40652.84,Month-to-Month,Debit Card,Fiber Optic,Yes,No,0
+CUST0671,Male,19,13,1459.73,56149.06,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0672,Female,20,31,1095.86,92919.04,Month-to-Month,Debit Card,None,No,Yes,0
+CUST0673,Female,40,20,1284.6,109838.42,One Year,Cash,Fiber Optic,Yes,No,1
+CUST0674,Female,29,18,445.08,23102.12,Month-to-Month,Cash,DSL,No,No,1
+CUST0675,Female,37,60,373.11,110722.91,Month-to-Month,UPI,None,No,No,0
+CUST0676,Male,22,63,1433.67,83627.15,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0677,Female,54,6,1699.63,73487.1,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0678,Female,55,32,1629.43,24381.03,Two Year,UPI,Fiber Optic,No,Yes,0
+CUST0679,Female,47,43,1224.47,7135.24,Month-to-Month,Net Banking,DSL,Yes,No,0
+CUST0680,Female,26,2,469.77,68431.56,One Year,Debit Card,DSL,Yes,Yes,0
+CUST0681,Female,51,60,1469.68,78356.12,One Year,Credit Card,DSL,No,No,0
+CUST0682,Male,61,23,711.21,25688.38,Two Year,UPI,Fiber Optic,No,No,1
+CUST0683,Male,52,31,1848.82,66996.52,Month-to-Month,Debit Card,None,No,Yes,0
+CUST0684,Female,69,5,1725.05,102850.96,Two Year,Net Banking,DSL,No,No,1
+CUST0685,Male,39,34,1505.95,100290.38,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0686,Female,61,10,1913.04,111318.94,Two Year,Cash,DSL,No,Yes,0
+CUST0687,Female,41,2,353.42,44223.35,Two Year,Credit Card,Fiber Optic,No,No,0
+CUST0688,Male,34,11,1551.54,38506.92,Month-to-Month,UPI,DSL,No,No,0
+CUST0689,Male,27,50,861.41,90056.41,Month-to-Month,Cash,None,No,Yes,1
+CUST0690,Female,47,31,1840.31,52017.93,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0691,Female,63,56,753.35,10962.07,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0692,Female,40,9,1532.26,34294.74,Month-to-Month,Cash,Fiber Optic,Yes,Yes,0
+CUST0693,Male,49,21,1792.0,50520.58,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0694,Female,34,28,370.82,35455.71,Month-to-Month,Cash,None,No,Yes,1
+CUST0695,Female,67,62,976.0,40198.57,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0696,Female,68,7,1595.93,35606.22,Month-to-Month,Debit Card,None,No,No,1
+CUST0697,Male,34,16,1073.36,5459.15,Month-to-Month,Cash,Fiber Optic,No,Yes,0
+CUST0698,Female,31,4,754.33,76632.82,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0699,Female,26,4,673.67,71876.44,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0700,Male,57,40,523.58,78579.33,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0701,Female,19,17,1757.12,23481.03,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0702,Female,62,52,1278.1,35830.72,Two Year,UPI,Fiber Optic,Yes,Yes,0
+CUST0703,Male,42,52,429.85,74544.1,Month-to-Month,Cash,Fiber Optic,No,No,0
+CUST0704,Female,56,36,950.39,72155.49,Month-to-Month,Net Banking,DSL,No,No,0
+CUST0705,Male,26,38,925.15,61006.47,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0706,Male,39,50,608.96,42374.38,One Year,Cash,Fiber Optic,No,No,0
+CUST0707,Female,60,63,1040.36,109595.26,Two Year,Debit Card,None,No,Yes,1
+CUST0708,Female,63,63,864.57,41102.54,Two Year,UPI,DSL,No,No,1
+CUST0709,Female,21,62,881.07,54946.49,One Year,Credit Card,Fiber Optic,No,Yes,1
+CUST0710,Female,43,7,1556.35,81534.6,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0711,Male,46,27,679.55,65391.06,Month-to-Month,Cash,Fiber Optic,Yes,No,0
+CUST0712,Female,62,14,1391.16,41952.87,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0713,Male,51,71,1270.1,52559.55,Two Year,UPI,Fiber Optic,No,No,1
+CUST0714,Female,40,5,1265.76,95440.46,One Year,Net Banking,DSL,No,No,1
+CUST0715,Female,54,55,1427.11,33736.43,One Year,UPI,None,No,Yes,0
+CUST0716,Female,28,2,1232.25,17499.5,Month-to-Month,Cash,DSL,Yes,No,1
+CUST0717,Male,23,62,1794.73,37923.0,One Year,Net Banking,DSL,Yes,No,0
+CUST0718,Female,35,21,1448.49,102019.34,Month-to-Month,UPI,DSL,No,No,1
+CUST0719,Female,38,21,1229.84,11134.27,Month-to-Month,Credit Card,DSL,Yes,Yes,0
+CUST0720,Female,59,10,1710.6,119007.68,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0721,Female,53,58,1330.45,65149.85,Month-to-Month,UPI,DSL,No,No,1
+CUST0722,Male,58,39,794.95,118189.07,Month-to-Month,UPI,DSL,No,Yes,0
+CUST0723,Female,55,5,652.06,112710.07,Two Year,Credit Card,Fiber Optic,Yes,Yes,0
+CUST0724,Male,51,65,558.96,54611.24,Month-to-Month,Cash,DSL,Yes,No,0
+CUST0725,Male,34,13,1829.07,24219.68,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0726,Male,54,53,1507.23,20203.73,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0727,Male,42,45,1893.54,29178.73,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0728,Male,55,32,1325.6,85360.85,One Year,UPI,None,No,No,0
+CUST0729,Male,29,36,1104.78,33117.52,One Year,Debit Card,None,No,No,0
+CUST0730,Female,40,60,401.52,41300.32,One Year,UPI,Fiber Optic,No,Yes,1
+CUST0731,Male,59,11,1441.79,54129.07,Two Year,Credit Card,DSL,No,Yes,1
+CUST0732,Male,39,63,1289.75,109631.31,One Year,UPI,Fiber Optic,No,No,0
+CUST0733,Male,38,21,1983.36,23132.51,Month-to-Month,UPI,Fiber Optic,Yes,No,1
+CUST0734,Female,44,52,706.57,1100.67,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0735,Female,48,55,1202.25,7681.52,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0736,Male,23,26,1406.63,108619.58,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0737,Female,44,68,1395.8,77878.22,Month-to-Month,UPI,Fiber Optic,Yes,No,0
+CUST0738,Male,57,34,1254.2,33128.35,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0739,Male,51,52,1620.78,21674.5,One Year,UPI,None,No,No,0
+CUST0740,Female,29,52,648.47,35664.88,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0741,Male,62,29,1533.57,14218.23,One Year,Debit Card,DSL,No,No,1
+CUST0742,Female,24,38,1353.55,113013.18,Two Year,Debit Card,DSL,No,No,0
+CUST0743,Female,27,42,1823.33,94212.64,Month-to-Month,Net Banking,Fiber Optic,No,Yes,0
+CUST0744,Male,62,21,1740.23,55755.75,Month-to-Month,Cash,DSL,No,No,1
+CUST0745,Male,34,42,835.75,103863.03,One Year,Debit Card,DSL,No,No,1
+CUST0746,Female,43,13,769.6,30310.26,Month-to-Month,Cash,None,No,Yes,1
+CUST0747,Male,38,64,1968.81,86195.91,One Year,Credit Card,DSL,No,No,0
+CUST0748,Male,45,17,1196.35,102807.83,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0749,Male,63,9,1840.92,43133.86,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0750,Female,19,41,578.6,91017.0,One Year,Net Banking,Fiber Optic,Yes,No,0
+CUST0751,Female,60,1,1392.79,35761.15,One Year,Cash,Fiber Optic,Yes,No,1
+CUST0752,Male,18,2,1676.76,36213.43,One Year,Debit Card,None,Yes,Yes,0
+CUST0753,Female,68,60,1910.57,13293.33,Two Year,Debit Card,None,Yes,No,0
+CUST0754,Female,53,48,873.48,53086.94,One Year,Net Banking,DSL,No,No,0
+CUST0755,Female,68,29,1532.47,87700.57,One Year,Net Banking,DSL,No,No,0
+CUST0756,Female,43,10,1215.98,112856.39,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0757,Female,46,58,403.07,72653.74,Month-to-Month,Credit Card,Fiber Optic,No,Yes,0
+CUST0758,Male,38,60,1473.0,103644.7,Month-to-Month,Credit Card,None,No,No,0
+CUST0759,Male,28,21,1473.16,98788.11,One Year,UPI,Fiber Optic,No,No,1
+CUST0760,Male,57,28,1882.03,21214.49,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0761,Female,28,34,1145.43,58555.18,Month-to-Month,Cash,DSL,Yes,No,1
+CUST0762,Female,53,8,691.43,14472.36,Month-to-Month,Debit Card,Fiber Optic,Yes,No,1
+CUST0763,Male,66,59,375.76,82017.3,One Year,Cash,None,No,No,0
+CUST0764,Female,56,49,1006.59,114013.01,Two Year,Cash,DSL,No,No,0
+CUST0765,Male,57,17,813.26,16882.19,Month-to-Month,Cash,Fiber Optic,Yes,Yes,0
+CUST0766,Male,52,60,1593.85,88199.03,Two Year,Debit Card,DSL,Yes,No,1
+CUST0767,Male,51,45,902.26,76052.46,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0768,Female,64,69,1913.42,70240.8,Month-to-Month,Debit Card,Fiber Optic,Yes,Yes,1
+CUST0769,Female,41,32,1935.93,47119.37,Two Year,Cash,DSL,No,Yes,0
+CUST0770,Male,39,44,1355.54,42938.23,Month-to-Month,UPI,Fiber Optic,No,Yes,0
+CUST0771,Male,22,65,1878.72,5907.28,Two Year,Credit Card,DSL,No,No,1
+CUST0772,Male,50,8,1593.45,26540.09,Month-to-Month,Cash,Fiber Optic,No,Yes,0
+CUST0773,Male,53,43,1229.66,2313.64,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0774,Female,64,1,606.52,69979.34,Two Year,Net Banking,DSL,No,No,0
+CUST0775,Female,37,51,1079.62,13149.46,Month-to-Month,Cash,Fiber Optic,No,No,0
+CUST0776,Male,36,24,1253.49,104825.82,Two Year,UPI,Fiber Optic,No,No,0
+CUST0777,Male,52,24,1768.73,63015.59,Two Year,Cash,DSL,Yes,Yes,1
+CUST0778,Female,69,17,1118.27,84112.94,Month-to-Month,Debit Card,DSL,No,No,1
+CUST0779,Female,60,5,1826.05,49597.42,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0780,Male,34,20,1446.39,67489.29,Month-to-Month,Debit Card,None,No,No,1
+CUST0781,Male,62,21,532.9,113147.77,Month-to-Month,Debit Card,DSL,No,Yes,0
+CUST0782,Male,60,58,1991.47,10386.72,Month-to-Month,UPI,DSL,No,No,1
+CUST0783,Female,51,31,1196.3,30845.56,Month-to-Month,Credit Card,DSL,Yes,No,0
+CUST0784,Female,26,11,966.16,93708.61,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0785,Female,43,52,1420.49,12299.1,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0786,Male,19,15,485.12,9541.5,Two Year,Cash,DSL,No,No,0
+CUST0787,Male,26,7,1382.12,43704.2,One Year,Cash,Fiber Optic,No,No,0
+CUST0788,Female,26,28,1147.0,11514.07,One Year,UPI,Fiber Optic,Yes,No,0
+CUST0789,Female,57,51,991.35,70416.87,Month-to-Month,Cash,DSL,No,No,1
+CUST0790,Male,34,58,1920.13,27539.89,One Year,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0791,Female,18,5,1188.32,107535.91,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0792,Female,42,5,672.5,94128.26,One Year,Debit Card,DSL,No,Yes,1
+CUST0793,Male,60,8,1080.24,84114.77,Two Year,Credit Card,DSL,Yes,Yes,1
+CUST0794,Female,57,64,1862.96,74224.81,Month-to-Month,Cash,None,No,Yes,1
+CUST0795,Male,59,10,599.36,103684.15,One Year,Credit Card,DSL,Yes,No,0
+CUST0796,Male,42,38,663.73,27155.92,One Year,Debit Card,Fiber Optic,Yes,Yes,0
+CUST0797,Male,56,8,322.15,104836.51,Two Year,Debit Card,None,No,No,0
+CUST0798,Male,52,25,324.12,94844.33,One Year,Cash,DSL,No,Yes,0
+CUST0799,Male,20,66,1709.97,89905.22,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0800,Male,67,50,1544.61,67570.05,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0801,Male,54,67,903.57,29926.18,Month-to-Month,Cash,None,No,Yes,1
+CUST0802,Female,61,49,1487.13,51113.98,One Year,Cash,None,No,No,0
+CUST0803,Male,61,36,971.85,95331.69,Month-to-Month,Credit Card,Fiber Optic,Yes,No,1
+CUST0804,Male,68,68,1919.92,4297.53,Two Year,Cash,DSL,Yes,Yes,1
+CUST0805,Female,47,41,1943.99,93955.07,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0806,Female,55,62,967.75,29188.45,Month-to-Month,Cash,Fiber Optic,No,No,0
+CUST0807,Female,51,10,1752.18,17744.95,Month-to-Month,Credit Card,Fiber Optic,No,No,1
+CUST0808,Male,29,21,1614.25,14326.31,One Year,Credit Card,DSL,No,No,0
+CUST0809,Female,36,36,827.0,3756.38,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0810,Male,54,12,694.47,63068.58,Month-to-Month,Credit Card,Fiber Optic,Yes,No,0
+CUST0811,Male,61,2,1079.0,26582.05,Month-to-Month,UPI,Fiber Optic,Yes,No,0
+CUST0812,Male,66,13,1628.29,118737.1,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0813,Male,34,53,1932.29,69145.19,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0814,Female,27,32,1598.08,16977.29,One Year,Cash,None,No,No,1
+CUST0815,Female,66,16,1753.85,82807.12,Month-to-Month,UPI,Fiber Optic,Yes,No,1
+CUST0816,Male,64,32,1325.21,107780.36,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0817,Male,29,32,1720.19,89548.95,One Year,UPI,DSL,Yes,No,0
+CUST0818,Male,33,11,1633.52,9634.56,Two Year,Net Banking,DSL,Yes,Yes,1
+CUST0819,Female,41,10,940.88,107558.16,One Year,Net Banking,None,No,No,1
+CUST0820,Male,36,15,1238.38,95374.56,Month-to-Month,Cash,Fiber Optic,Yes,No,1
+CUST0821,Male,25,17,1668.08,19417.32,Two Year,Cash,Fiber Optic,No,No,1
+CUST0822,Female,48,40,378.3,6688.41,Two Year,Debit Card,Fiber Optic,Yes,No,0
+CUST0823,Female,38,18,1673.73,67098.61,One Year,Debit Card,DSL,No,No,1
+CUST0824,Male,34,55,602.41,19146.28,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0825,Female,40,25,1174.96,100233.62,Month-to-Month,Credit Card,Fiber Optic,No,No,0
+CUST0826,Female,54,59,1674.07,43320.99,One Year,UPI,DSL,No,No,0
+CUST0827,Male,33,22,731.5,109590.65,Month-to-Month,Debit Card,DSL,Yes,No,0
+CUST0828,Female,23,30,717.87,68099.74,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0829,Male,25,44,984.7,22329.35,One Year,Credit Card,None,No,No,1
+CUST0830,Female,42,32,1820.89,17182.06,One Year,Credit Card,DSL,Yes,No,0
+CUST0831,Male,35,51,300.75,69388.46,Month-to-Month,Cash,None,No,No,0
+CUST0832,Male,42,46,1832.35,91545.09,One Year,UPI,Fiber Optic,Yes,No,0
+CUST0833,Male,29,21,561.47,93889.92,Month-to-Month,Credit Card,DSL,No,No,0
+CUST0834,Female,32,32,1983.15,33453.01,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0835,Male,43,39,1923.24,24907.49,One Year,Debit Card,DSL,Yes,Yes,0
+CUST0836,Female,58,12,1140.95,2502.38,Month-to-Month,Net Banking,Fiber Optic,No,No,0
+CUST0837,Male,62,47,1171.62,81664.3,Month-to-Month,Credit Card,DSL,No,No,0
+CUST0838,Male,43,18,1118.63,9649.91,Two Year,Cash,DSL,No,Yes,0
+CUST0839,Female,64,21,1380.25,50780.96,Month-to-Month,UPI,Fiber Optic,No,Yes,0
+CUST0840,Male,49,13,454.23,72401.02,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0841,Male,27,21,355.45,112484.52,Two Year,Debit Card,DSL,No,No,0
+CUST0842,Female,33,8,398.09,37760.36,One Year,Cash,Fiber Optic,No,Yes,1
+CUST0843,Male,24,46,1055.42,30347.77,One Year,Debit Card,Fiber Optic,Yes,No,0
+CUST0844,Male,34,7,768.43,78672.14,Two Year,Debit Card,Fiber Optic,No,No,0
+CUST0845,Male,40,23,1357.47,74499.06,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0846,Male,43,22,1987.15,40187.12,One Year,Debit Card,DSL,No,No,1
+CUST0847,Female,38,22,956.75,111408.17,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0848,Female,39,29,1275.53,101461.05,One Year,Net Banking,Fiber Optic,No,No,0
+CUST0849,Male,24,13,1006.53,27265.91,Month-to-Month,Cash,Fiber Optic,No,Yes,1
+CUST0850,Female,31,2,1740.36,29077.53,One Year,Net Banking,Fiber Optic,No,No,1
+CUST0851,Male,32,29,1833.8,61719.89,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0852,Female,24,52,1791.5,92941.87,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0853,Male,26,27,1956.43,5762.83,One Year,Credit Card,Fiber Optic,No,Yes,1
+CUST0854,Male,68,50,346.78,83353.55,One Year,Credit Card,Fiber Optic,No,No,0
+CUST0855,Male,65,23,1727.69,77964.19,One Year,UPI,Fiber Optic,No,Yes,1
+CUST0856,Male,25,44,1578.01,28161.87,Month-to-Month,Credit Card,DSL,Yes,No,1
+CUST0857,Male,67,22,688.78,81921.69,Month-to-Month,Cash,None,No,No,0
+CUST0858,Male,40,43,1925.74,112851.89,One Year,Net Banking,Fiber Optic,No,No,1
+CUST0859,Female,46,37,551.9,6090.91,One Year,Cash,DSL,Yes,No,0
+CUST0860,Male,35,61,1455.23,38698.42,One Year,Credit Card,Fiber Optic,Yes,No,1
+CUST0861,Female,48,56,682.31,52862.12,Two Year,UPI,Fiber Optic,No,No,0
+CUST0862,Male,47,3,1033.35,107961.61,One Year,UPI,Fiber Optic,No,No,0
+CUST0863,Female,69,63,1522.57,115490.24,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0864,Female,56,19,1257.65,53571.77,One Year,Cash,None,Yes,Yes,1
+CUST0865,Female,52,23,1026.75,90128.4,Two Year,Debit Card,DSL,Yes,No,0
+CUST0866,Male,35,29,854.78,64033.49,One Year,Cash,Fiber Optic,No,No,0
+CUST0867,Male,59,30,1727.42,64765.06,One Year,Credit Card,None,No,No,0
+CUST0868,Female,56,39,544.48,33732.89,One Year,Debit Card,None,Yes,Yes,0
+CUST0869,Male,34,25,1031.17,26426.27,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0870,Female,31,8,1836.39,34916.64,Month-to-Month,Net Banking,None,No,Yes,1
+CUST0871,Male,48,58,1737.94,66981.2,Month-to-Month,Net Banking,DSL,Yes,Yes,1
+CUST0872,Female,41,16,981.6,3984.04,Two Year,UPI,None,Yes,No,0
+CUST0873,Female,52,1,1597.28,108916.25,One Year,Credit Card,DSL,Yes,Yes,1
+CUST0874,Male,61,5,1699.37,19175.9,Month-to-Month,UPI,DSL,No,No,1
+CUST0875,Female,62,3,1811.11,26800.6,Two Year,Credit Card,DSL,No,Yes,1
+CUST0876,Male,51,65,1225.66,62434.0,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0877,Female,20,4,647.58,85358.71,Month-to-Month,UPI,DSL,No,No,0
+CUST0878,Female,54,64,734.03,11939.62,One Year,Credit Card,DSL,No,Yes,1
+CUST0879,Male,60,10,802.68,38464.52,One Year,Debit Card,DSL,No,Yes,0
+CUST0880,Male,57,21,1309.46,116256.62,Month-to-Month,UPI,DSL,No,No,0
+CUST0881,Male,43,46,355.78,31849.98,Month-to-Month,Net Banking,Fiber Optic,Yes,No,0
+CUST0882,Female,40,27,1381.27,37909.49,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0883,Male,61,66,919.4,100461.57,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0884,Female,56,41,801.91,6500.62,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0885,Female,32,13,1795.14,56021.27,Month-to-Month,Cash,None,No,No,1
+CUST0886,Male,66,9,1082.0,45864.2,Month-to-Month,Debit Card,Fiber Optic,Yes,No,0
+CUST0887,Male,21,36,461.59,38332.12,Month-to-Month,UPI,DSL,No,No,1
+CUST0888,Female,46,58,1705.47,34641.1,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0889,Female,39,54,380.99,11419.21,Month-to-Month,Debit Card,DSL,No,Yes,0
+CUST0890,Male,42,12,1535.47,38121.69,Two Year,Credit Card,DSL,No,No,0
+CUST0891,Male,30,14,1615.64,5644.76,One Year,Debit Card,DSL,No,No,0
+CUST0892,Male,35,34,899.42,93825.18,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0893,Male,50,53,1702.14,48088.22,Month-to-Month,UPI,DSL,No,No,1
+CUST0894,Male,33,20,1176.62,53546.51,Month-to-Month,UPI,DSL,No,Yes,1
+CUST0895,Female,62,16,1087.6,107284.55,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0896,Female,59,70,377.19,79137.57,Month-to-Month,Credit Card,None,No,Yes,0
+CUST0897,Female,61,56,793.05,1463.06,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0898,Female,19,58,1882.72,113209.39,Month-to-Month,Credit Card,DSL,No,No,1
+CUST0899,Male,52,4,966.1,28838.76,One Year,Cash,Fiber Optic,Yes,No,0
+CUST0900,Male,59,4,1229.39,13359.9,Month-to-Month,Debit Card,Fiber Optic,Yes,Yes,1
+CUST0901,Male,51,20,1204.44,92291.32,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0902,Female,47,10,1303.73,60307.04,One Year,Net Banking,DSL,No,No,1
+CUST0903,Female,30,24,404.26,52335.58,Month-to-Month,Net Banking,None,No,Yes,1
+CUST0904,Male,30,26,915.7,30315.62,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0905,Male,35,37,1529.32,65922.84,Month-to-Month,Cash,Fiber Optic,Yes,Yes,0
+CUST0906,Female,49,54,640.95,33288.96,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0907,Female,49,21,646.08,108239.17,One Year,Net Banking,DSL,No,Yes,0
+CUST0908,Male,52,38,317.15,26216.94,Month-to-Month,Cash,DSL,No,Yes,1
+CUST0909,Male,56,46,1043.72,106180.44,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0910,Female,63,4,1800.65,67348.95,Month-to-Month,Net Banking,DSL,No,Yes,1
+CUST0911,Male,69,60,388.23,99504.33,Month-to-Month,UPI,Fiber Optic,Yes,No,0
+CUST0912,Male,46,57,624.9,85685.1,Two Year,Net Banking,DSL,No,No,0
+CUST0913,Male,66,45,827.14,83755.07,One Year,Credit Card,Fiber Optic,Yes,Yes,0
+CUST0914,Female,46,20,1543.93,39259.32,Month-to-Month,Credit Card,Fiber Optic,No,Yes,0
+CUST0915,Female,61,17,1389.08,28450.68,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0916,Female,33,71,1007.1,25700.9,Month-to-Month,UPI,Fiber Optic,No,No,0
+CUST0917,Female,61,4,1590.42,102934.4,Two Year,Credit Card,Fiber Optic,No,No,1
+CUST0918,Female,64,14,1336.37,98541.01,Month-to-Month,Cash,DSL,No,No,0
+CUST0919,Female,27,3,1823.27,53148.54,Month-to-Month,UPI,Fiber Optic,No,No,1
+CUST0920,Female,47,58,1690.65,16322.35,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0921,Male,42,55,729.78,46179.14,Month-to-Month,Cash,Fiber Optic,No,No,0
+CUST0922,Male,56,4,761.45,74511.54,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0923,Male,37,24,513.11,54801.18,Month-to-Month,Cash,DSL,No,Yes,0
+CUST0924,Male,22,34,872.84,93732.62,Month-to-Month,Cash,DSL,No,Yes,0
+CUST0925,Male,18,30,1999.22,119715.93,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,1
+CUST0926,Male,47,19,989.78,23340.28,Month-to-Month,Net Banking,Fiber Optic,Yes,No,1
+CUST0927,Male,66,31,674.83,55428.27,Two Year,Net Banking,None,No,No,1
+CUST0928,Female,20,60,1596.22,52002.58,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0929,Female,62,60,1222.2,36886.86,Month-to-Month,Net Banking,Fiber Optic,No,Yes,1
+CUST0930,Male,31,19,554.32,24172.41,One Year,Cash,None,No,No,0
+CUST0931,Male,47,49,947.17,8350.21,Month-to-Month,Debit Card,DSL,Yes,No,1
+CUST0932,Female,67,63,1004.6,106510.76,One Year,Debit Card,DSL,No,Yes,0
+CUST0933,Male,21,22,1581.51,50671.92,One Year,Credit Card,Fiber Optic,Yes,No,0
+CUST0934,Male,35,24,335.14,59879.01,Month-to-Month,Debit Card,Fiber Optic,No,No,1
+CUST0935,Female,54,30,757.33,110074.57,Two Year,Debit Card,None,Yes,No,0
+CUST0936,Male,42,58,1179.91,93266.71,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0937,Female,65,31,757.04,16094.9,Month-to-Month,Net Banking,DSL,Yes,No,1
+CUST0938,Male,18,64,1368.34,68067.69,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0939,Female,63,19,1119.17,53349.15,Month-to-Month,Cash,DSL,No,No,1
+CUST0940,Female,32,48,914.91,95766.72,One Year,Debit Card,DSL,No,No,0
+CUST0941,Female,26,45,1913.65,87045.79,One Year,Cash,Fiber Optic,No,Yes,0
+CUST0942,Male,32,55,1374.67,83003.48,One Year,Credit Card,DSL,No,No,0
+CUST0943,Female,66,55,520.9,41195.11,Two Year,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0944,Male,41,18,1252.16,96693.17,One Year,UPI,Fiber Optic,No,Yes,0
+CUST0945,Male,21,63,1627.24,6760.76,One Year,Credit Card,Fiber Optic,No,No,1
+CUST0946,Male,29,47,1504.43,19575.18,Month-to-Month,Credit Card,DSL,Yes,No,0
+CUST0947,Male,54,57,592.55,40606.98,Month-to-Month,Cash,DSL,Yes,No,0
+CUST0948,Female,54,45,1953.11,9678.49,Month-to-Month,Debit Card,DSL,No,Yes,1
+CUST0949,Female,60,33,1062.98,28581.82,One Year,Net Banking,None,No,Yes,1
+CUST0950,Male,23,17,570.34,99703.04,Month-to-Month,UPI,Fiber Optic,No,Yes,1
+CUST0951,Male,56,70,606.33,113816.06,Month-to-Month,Credit Card,Fiber Optic,No,Yes,1
+CUST0952,Female,63,4,467.0,36899.98,Month-to-Month,UPI,DSL,Yes,No,0
+CUST0953,Male,41,20,1665.98,32109.64,Month-to-Month,Debit Card,None,Yes,Yes,0
+CUST0954,Female,28,47,507.45,33947.17,Month-to-Month,Debit Card,DSL,No,No,0
+CUST0955,Male,30,15,512.71,33687.43,Month-to-Month,UPI,DSL,Yes,Yes,0
+CUST0956,Male,51,70,1745.8,4793.66,One Year,Net Banking,Fiber Optic,No,No,0
+CUST0957,Female,42,47,885.83,111266.5,Month-to-Month,Debit Card,None,No,Yes,0
+CUST0958,Male,24,9,352.46,26036.93,One Year,UPI,DSL,Yes,Yes,1
+CUST0959,Female,69,16,388.22,50690.49,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0960,Male,21,69,541.69,1657.58,Month-to-Month,UPI,None,Yes,No,0
+CUST0961,Male,25,61,662.77,103025.63,Month-to-Month,UPI,DSL,No,No,1
+CUST0962,Male,37,10,1430.75,87873.3,Month-to-Month,Cash,DSL,Yes,No,1
+CUST0963,Female,46,50,567.45,113637.35,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0964,Male,68,3,502.09,93903.05,Month-to-Month,Net Banking,None,No,Yes,1
+CUST0965,Male,62,70,1600.02,37987.93,Month-to-Month,Net Banking,Fiber Optic,No,No,1
+CUST0966,Male,63,51,1440.79,30120.87,Month-to-Month,Cash,None,No,No,1
+CUST0967,Male,27,19,1040.05,83877.1,Month-to-Month,Net Banking,Fiber Optic,Yes,Yes,0
+CUST0968,Female,60,42,1233.83,44011.48,One Year,UPI,DSL,No,Yes,1
+CUST0969,Female,51,35,830.37,68162.69,One Year,Cash,None,No,Yes,1
+CUST0970,Male,43,46,1120.25,1247.77,Month-to-Month,Credit Card,Fiber Optic,No,Yes,0
+CUST0971,Female,58,26,1161.34,7895.34,Two Year,Debit Card,DSL,Yes,No,0
+CUST0972,Male,66,69,958.3,64476.47,Month-to-Month,Debit Card,Fiber Optic,No,Yes,1
+CUST0973,Male,20,64,1841.17,68145.56,One Year,Debit Card,DSL,Yes,Yes,0
+CUST0974,Male,23,37,327.31,90298.63,One Year,UPI,DSL,No,Yes,0
+CUST0975,Female,22,49,1629.69,16269.86,One Year,Credit Card,DSL,Yes,No,0
+CUST0976,Female,22,21,511.45,61825.38,Month-to-Month,Cash,Fiber Optic,No,No,1
+CUST0977,Female,64,64,1655.83,23736.49,Month-to-Month,Cash,Fiber Optic,Yes,Yes,1
+CUST0978,Female,40,5,1347.05,11636.94,Month-to-Month,Debit Card,Fiber Optic,No,Yes,0
+CUST0979,Female,66,70,1733.57,49554.25,Month-to-Month,Credit Card,None,No,Yes,1
+CUST0980,Female,26,4,465.77,20018.73,Month-to-Month,Credit Card,DSL,Yes,No,0
+CUST0981,Female,52,39,1250.27,27002.95,Month-to-Month,Credit Card,DSL,No,Yes,0
+CUST0982,Female,37,35,1151.85,38447.77,Month-to-Month,Net Banking,DSL,Yes,No,1
+CUST0983,Female,66,1,1500.53,31496.91,Month-to-Month,Net Banking,DSL,No,No,0
+CUST0984,Male,59,24,1208.29,10967.16,One Year,Debit Card,DSL,No,No,0
+CUST0985,Female,52,57,1219.25,11244.99,Two Year,Credit Card,Fiber Optic,No,Yes,0
+CUST0986,Female,67,70,1030.31,23593.31,Two Year,Credit Card,None,No,No,1
+CUST0987,Female,35,41,825.02,6541.82,Month-to-Month,Cash,None,Yes,No,0
+CUST0988,Female,34,54,1119.85,75361.61,One Year,Cash,DSL,No,Yes,0
+CUST0989,Female,41,46,501.44,34835.54,Two Year,Debit Card,None,Yes,Yes,0
+CUST0990,Female,20,60,1934.57,33929.64,Month-to-Month,Credit Card,DSL,No,Yes,1
+CUST0991,Female,49,60,1514.5,40173.8,Month-to-Month,Debit Card,DSL,No,Yes,0
+CUST0992,Female,52,57,1919.19,79704.15,Two Year,Cash,None,No,Yes,1
+CUST0993,Female,55,31,685.44,104540.75,Month-to-Month,Cash,Fiber Optic,Yes,No,1
+CUST0994,Female,30,24,1794.88,91210.89,Month-to-Month,Net Banking,DSL,No,No,1
+CUST0995,Female,64,36,1674.94,87439.74,Month-to-Month,Debit Card,Fiber Optic,No,No,0
+CUST0996,Male,42,30,1451.16,58384.75,Month-to-Month,Debit Card,DSL,Yes,Yes,0
+CUST0997,Male,26,24,1362.55,83409.76,One Year,Credit Card,Fiber Optic,No,No,0
+CUST0998,Female,21,30,838.13,66555.1,One Year,Credit Card,Fiber Optic,No,Yes,0
+CUST0999,Female,31,7,1687.9,26341.94,Month-to-Month,Net Banking,None,No,No,1
+CUST1000,Male,54,35,1152.58,25426.31,Month-to-Month,UPI,DSL,No,Yes,0
